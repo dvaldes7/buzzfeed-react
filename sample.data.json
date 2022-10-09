@@ -1,0 +1,105 @@
+{
+    "quizId": "123abc",
+    "title": "What cheese are you?",
+    "subtitle": "This quiz isn's cheesy or anything like that...",
+    "content": [
+        {
+            "id": 0,
+            "text": "Pick a vacation destination:",
+            "questions": [
+                {
+                    "text": "New York",
+                    "image": "https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8bmV3JTIweW9ya3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=1000&q=60",
+                    "alt": "Photo or Empire State Building during daytime",
+                    "credit": "Oliver Niblett"
+                },
+                {
+                    "text": "Paris",
+                    "image": "https://images.unsplash.com/photo-1511739001486-6bfe10ce785f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cGFyaXN8ZW58MHx8MHx8&auto=format&fit=crop&w=1000&q=60",
+                    "alt": "Photo or Empire State Building during daytime",
+                    "credit": "Oliver Niblett"
+                },
+                {
+                    "text": "Roma",
+                    "image": "https://images.unsplash.com/photo-1552832230-c0197dd311b5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cm9tYXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=1000&q=60",
+                    "alt": "Photo or Empire State Building during daytime",
+                    "credit": "Oliver Niblett"
+                },
+                {
+                    "text": "Madrid",
+                    "image": "https://images.unsplash.com/photo-1539037116277-4db20889f2d4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bWFkcmlkfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+                    "alt": "Photo or Empire State Building during daytime",
+                    "credit": "Oliver Niblett"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "title": "Pick some food",
+            "questions": [
+                {
+                    "text": "Pizza",
+                    "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cGl6emF8ZW58MHx8MHx8&auto=format&fit=crop&w=1000&q=60",
+                    "alt": "pizza",
+                    "credit": "Oliver Niblett"
+                },
+                {
+                    "text": "Sandwich",
+                    "image": "https://images.unsplash.com/photo-1539252554453-80ab65ce3586?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8c2FuZHdpY2h8ZW58MHx8MHx8&auto=format&fit=crop&w=1000&q=60",
+                    "alt": "sandwich",
+                    "credit": "Oliver Niblett"
+                },
+                {
+                    "text": "Pasta",
+                    "image": "https://images.unsplash.com/photo-1608897013039-887f21d8c804?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8cGFzdGF8ZW58MHx8MHx8&auto=format&fit=crop&w=1000&q=60",
+                    "alt": "Pasta",
+                    "credit": "Oliver Niblett"
+                },
+                {
+                    "text": "Hamburger",
+                    "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8aGFtYnVyZ2VyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+                    "alt": "hamburger",
+                    "credit": "Oliver Niblett"
+                }
+            ]
+        },
+        {
+            "id": "2",
+            "text": "Pick a home",
+            "questions": [
+                {
+                    "text": "Traditional",
+                    "image": "https://images.unsplash.com/photo-1627553002447-cb93a0010deb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8aG9tZSUyMHRyYWRpdGlvbmFsfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+                    "alt": "focus photography of building windows",
+                    "credit": "Oliver Niblett"
+                },
+                {
+                    "text": "Modern",
+                    "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8aG9tZSUyMG1vZGVybnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=1000&q=60",
+                    "alt": "smart devices and confortable",
+                    "credit": "Oliver Niblett"
+                },
+                {
+                    "text": "House",
+                    "image": "https://images.unsplash.com/photo-1465301055284-72f355cfd745?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fGhvbWUlMjBob3VzZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=1000&q=60",
+                    "alt": "house traditional",
+                    "credit": "Oliver Niblett"
+                },
+                {
+                    "text": "Montains",
+                    "image": "https://images.unsplash.com/photo-1485464665716-8014744ceccc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGhvbWUlMjBtb250YWluc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=1000&q=60",
+                    "alt": "",
+                    "credit": "beatiful view of the mountains"
+                }
+            ]
+        }
+    ],
+    "answers": [
+        {
+            "combination": ["Paris", "Pizza", "Traditional"],
+            "text": "Blue Cheese",
+            "image": "https://images.unsplash.com/photo-1452195100486-9cc805987862?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8Ymx1ZSUyMGNoZWVzZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=1000&q=60",
+            "alt": "blue cheese"
+        }
+    ]
+}
