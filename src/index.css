@@ -1,6 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;700&family=Roboto+Slab:wght@400;700&family=Roboto:wght@400;500;700;900&display=swap');
+
+body {
+    font-size: 62.5%;
+}
+
+.disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
 .container {
-    width: 70%;
+    width: 60%;
     margin: 0 auto;
     font-family: 'Roboto';
 }
@@ -8,4 +17,75 @@
 .container h1 {
     text-align: center;
     font-weight: bold;
+}
+
+.question,
+.section-answer {
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+.question-title {
+    background-color: blueviolet;
+    width: 100%;
+    padding: 1px;
+    border-radius: 10px;
+}
+
+.question-title h2 {
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    font-size: 3rem;
+}
+
+.question-items {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    justify-content: space-evenly;
+    row-gap: 31px;
+}
+
+.question-items .items {
+    width: 45%;
+    display: flex;
+    background-color: #f0f0f0;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.question-items .items img {
+    width: 98%;
+    height: 310px;
+}
+
+.question-items .items .title {
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin: 10px 0 0;
+}
+
+.question-items .items .credit {
+    font-size: 0.9rem;
+    color: #9d9c9c;
+    margin-top: 10px;
+}
+
+.answer {
+    text-align: center;
+    background-color: #b52be2;
+    padding: 20px;
+    width: 89%;
+    margin: 0 auto;
+}
+.answer img {
+    width: 80%;
+}
+
+.answer h1 {
+    font-size: 2.6rem;
 }

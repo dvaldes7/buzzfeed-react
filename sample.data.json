@@ -1,7 +1,7 @@
 {
     "quizId": "123abc",
     "title": "What cheese are you?",
-    "subtitle": "This quiz isn's cheesy or anything like that...",
+    "subtitle": "This quiz is cheesy or anything like that...",
     "content": [
         {
             "id": 0,
@@ -34,8 +34,8 @@
             ]
         },
         {
-            "id": 2,
-            "title": "Pick some food",
+            "id": 1,
+            "text": "Pick some food",
             "questions": [
                 {
                     "text": "Pizza",

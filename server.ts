@@ -23,7 +23,9 @@ app.get('/quizes', async (req: Request, res: Response) => {
             }
         );
         const { data } = resp.data;
-        const quizes: Quiz = data['7e91aa6f-5705-4267-8298-da3b8ef3665e'];
+        console.log(data);
+
+        const quizes: Quiz = data['2064dabb-bb58-4f0a-84b9-106b81e06a2a'];
         res.setHeader('Access-Control-Allow-Origin', 'http://127.0.0.1:5173');
         return res.status(200).json(quizes);
     } catch (e) {

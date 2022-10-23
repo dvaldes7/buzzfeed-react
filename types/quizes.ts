@@ -1,5 +1,5 @@
 export interface Quiz {
-    answers: Array<string>;
+    answers: Array<Answer>;
     content: Array<Content>;
     quizId: string;
     subtitle: string;
@@ -15,6 +15,17 @@ export interface Content {
 export interface Questions {
     alt: string;
     credit: string;
+    image: string;
+    text: string;
+}
+
+export interface OptionsChoiced {
+    id: number;
+    text: string;
+}
+export interface Answer {
+    alt: string;
+    combination: string[];
     image: string;
     text: string;
 }
