@@ -8,7 +8,7 @@ import { QuestionTitle } from './QuestionTitle';
 export const Question = ({ question }: { question: Content }) => {
     return (
         <section className={`question question-${question.id}`}>
-            <QuestionTitle text={question.text} />
+            <QuestionTitle text={question.text} id={question.id} />
             <QuestionItems question={question} />
         </section>
     );

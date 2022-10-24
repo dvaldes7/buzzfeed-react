@@ -1,5 +1,9 @@
 import React, { MutableRefObject, useContext, useEffect, useRef } from 'react';
-import { OptionsChoiced, Questions } from '../../types/quizes';
+import {
+    OptionsChoiced,
+    Questions,
+    ReferencesHeading,
+} from '../../types/quizes';
 import { BuzzFeedContext } from '../context/BuzzFeedContext';
 
 export const QuestionItem = ({
@@ -14,11 +18,13 @@ export const QuestionItem = ({
         setOptions,
         unoption,
         setUnoption,
+        ref,
     }: {
         options: OptionsChoiced[];
         setOptions: Function;
         unoption: number[];
         setUnoption: Function;
+        ref: ReferencesHeading[];
     } = useContext<any>(BuzzFeedContext);
     const itemRef = useRef<HTMLDivElement>(null);
 
@@ -46,8 +52,14 @@ export const QuestionItem = ({
     useEffect(() => {
         if (unoption?.length > 0) {
             const min = Math.min(...unoption);
-            const question = document.querySelector(`.question-${min}`);
-            question?.scrollIntoView({ behavior: 'smooth' });
+            // const question = document.querySelector(`.question-${min}`);
+            // question?.scrollIntoView({ behavior: 'smooth' });
+            console.log(ref);
+
+            const nextQuestion = ref?.find((r) => r.id == min);
+            nextQuestion?.heading.current?.scrollIntoView({
+                behavior: 'smooth',
+            });
         }
     }, [unoption]);
 

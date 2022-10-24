@@ -1,3 +1,5 @@
+import { LegacyRef } from 'react';
+
 export interface Quiz {
     answers: Array<Answer>;
     content: Array<Content>;
@@ -28,4 +30,9 @@ export interface Answer {
     combination: string[];
     image: string;
     text: string;
+}
+
+export interface ReferencesHeading {
+    id: number;
+    heading: React.RefObject<HTMLHeadingElement>;
 }

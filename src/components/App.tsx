@@ -1,5 +1,5 @@
-import React, { useContext, useEffect, useState } from 'react';
-import { OptionsChoiced, Quiz } from '../../types/quizes';
+import React, { createRef, useContext, useEffect, useState } from 'react';
+import { OptionsChoiced, Quiz, ReferencesHeading } from '../../types/quizes';
 import { BuzzFeedContext } from '../context/BuzzFeedContext';
 import { Answers } from './Answers';
 import { Question } from './Question';
@@ -23,12 +23,16 @@ export const App = () => {
         setUnoption,
         showAnswer,
         setShowAnswer,
+        ref,
+        setRef,
     }: {
         unoption: number[];
         options: OptionsChoiced[];
         setUnoption: Function;
         showAnswer: boolean;
         setShowAnswer: Function;
+        ref: ReferencesHeading;
+        setRef: Function;
     } = useContext<any>(BuzzFeedContext);
     useEffect(() => {
         callAPI(setQuiz);
@@ -37,7 +41,16 @@ export const App = () => {
     useEffect(() => {
         //Cuando quiz termine de ejecutarse, volverá a cargarse este efecto
         const data: number[] | undefined = quiz?.content.map((q) => q.id);
+        //Crear las referencias de cada h1 con el respectivo id que representa
+        const references = data?.map((i) => {
+            const heading = createRef<HTMLHeadingElement>();
+            return {
+                id: i,
+                heading,
+            };
+        });
         setUnoption(data);
+        setRef(references);
     }, [quiz]);
 
     useEffect(() => {
